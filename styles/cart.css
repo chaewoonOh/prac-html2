@@ -39,3 +39,15 @@ table {
   color: white;
   cursor: pointer;
 }
+
+.btn:hover {
+  background-color: chocolate;
+}
+
+.btn:active {
+  background-color: brown;
+}
+
+.btn:focus {
+  background-color: grey;
+}
