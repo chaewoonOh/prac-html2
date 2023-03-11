@@ -51,3 +51,15 @@ table {
 .btn:focus {
   background-color: grey;
 }
+
+.custom-link {
+  text-decoration: none;
+}
+
+.custom-link:link {
+  color: violet;
+}
+
+.custom-link:visited {
+  color: black;
+}

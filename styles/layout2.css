@@ -1,7 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+
 div,
 input,
 textarea {
   box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: "Noto Sans KR", sans-serif;
 }
 
 .main-background {
