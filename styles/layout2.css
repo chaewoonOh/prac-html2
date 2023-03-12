@@ -108,3 +108,13 @@ body {
   border-radius: 2px;
   font-size: 15px;
 }
+
+.flex-container {
+  display: flex;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background: grey;
+  margin: 5px;
+}
