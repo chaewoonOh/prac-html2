@@ -172,6 +172,24 @@ body {
   font-weight: 400;
 }
 
+.shop-bg {
+  background-color: #eee;
+  padding: 20px;
+}
+.shop-container {
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+.shop-item {
+  width: 33%;
+  padding: 10px;
+}
+.shop-item img {
+  width: 100%;
+  display: block;
+}
+
 @media screen and (max-width: 1200px) {
   .main-title {
     font-size: 30px;
