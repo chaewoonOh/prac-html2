@@ -1,31 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
 
-div,
-input,
-textarea {
-  box-sizing: border-box;
-}
-
 body {
   margin: 0px;
-  font-family: "Noto Sans KR", sans-serif;
+}
+div {
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 22px;
 }
 
 .main-background {
-  width: 100%;
-  height: 500px;
-  background-color: cornflowerblue;
+  background-image: linear-gradient(to bottom, #499add, #4e61c0);
+  height: 550px;
+  padding: 20px;
 }
-.main-title {
-  color: white;
-  font-weight: bold;
-  font-size: 30px;
+.main-container {
+  max-width: 1200px;
+  margin: auto;
 }
-.main-content {
-  color: white;
-  font-size: 13;
+.main-text {
+  float: left;
+  margin-top: 50px;
 }
-.main-button {
+.main-iphone {
+  width: 400px;
+  float: right;
+  margin-top: 95px;
+}
+.main-btn-black {
   width: 110px;
   height: 40px;
   background-color: #464646;
@@ -34,9 +40,12 @@ body {
   border-radius: 5px;
   color: white;
 }
-.main-background img {
-  width: 200px;
-  height: 300px;
-  display: block;
-  display: flex;
+
+@media screen and (max-width: 768px) {
+  .main-title {
+    font-size: 23px;
+  }
+  .product-container div {
+    width: 100%;
+  }
 }
