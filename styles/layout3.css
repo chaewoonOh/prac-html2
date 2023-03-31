@@ -31,14 +31,21 @@ h4 {
   float: right;
   margin-top: 95px;
 }
-.main-btn-black {
-  width: 110px;
-  height: 40px;
-  background-color: #464646;
-  padding: 5px;
+
+.btn {
+  padding: 15px 20px;
+  font-size: 16px;
+  font-weight: 500;
   border: none;
   border-radius: 5px;
+  cursor: pointer;
+}
+.btn-black {
+  background: #444;
   color: white;
+}
+.btn-black:hover {
+  background: gray;
 }
 
 @media screen and (max-width: 768px) {
