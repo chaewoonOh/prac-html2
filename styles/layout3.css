@@ -48,11 +48,17 @@ h4 {
   background: gray;
 }
 
-@media screen and (max-width: 768px) {
-  .main-title {
-    font-size: 23px;
+@media screen and (max-width: 992px) {
+  .main-iphone {
+    width: 260px;
+    display: block;
+    float: none;
+    margin: auto;
+    margin-top: 42px;
   }
-  .product-container div {
-    width: 100%;
+  .main-text {
+    float: none;
+    margin-top: 50px;
+    text-align: center;
   }
 }
