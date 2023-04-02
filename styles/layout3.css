@@ -48,6 +48,14 @@ h4 {
   background: gray;
 }
 
+.service {
+  background-color: #4e61c0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 60px 30px 50px 30px;
+}
+
 @media screen and (max-width: 992px) {
   .main-iphone {
     width: 260px;
