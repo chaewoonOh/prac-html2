@@ -92,4 +92,11 @@ h4 {
     margin-top: 50px;
     text-align: center;
   }
+  .service-items {
+    display: flex;
+    flex-direction: column;
+  }
+  .service-items div {
+    width: 100%;
+  }
 }
