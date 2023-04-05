@@ -79,6 +79,54 @@ h4 {
   padding: 15px;
 }
 
+.portfolio {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+.portfolio-item1 {
+  float: left;
+  width: 50%;
+  height: 350px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../assets/image/portfolio-1.jpg);
+  background-size: cover;
+}
+.portfolio-item2 {
+  float: left;
+  width: 50%;
+  height: 350px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../assets/image/portfolio-2.jpg);
+  background-size: cover;
+}
+.portfolio-item3 {
+  float: left;
+  width: 50%;
+  height: 350px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../assets/image/portfolio-3.jpg);
+  background-size: cover;
+}
+.portfolio-item4 {
+  float: left;
+  width: 50%;
+  height: 350px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../assets/image/portfolio-4.jpg);
+  background-size: cover;
+}
+.portfolio-container {
+  text-align: center;
+  max-width: 1200px;
+  margin: auto;
+}
+.portfolio-text {
+  color: white;
+  padding: 50px;
+  width: 100%;
+}
+
 @media screen and (max-width: 992px) {
   .main-iphone {
     width: 260px;
