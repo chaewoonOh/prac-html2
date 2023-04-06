@@ -147,4 +147,20 @@ h4 {
   .service-items div {
     width: 100%;
   }
+  .portfolio-item1 {
+    float: none;
+    width: 100%;
+  }
+  .portfolio-item2 {
+    float: none;
+    width: 100%;
+  }
+  .portfolio-item3 {
+    float: none;
+    width: 100%;
+  }
+  .portfolio-item4 {
+    float: none;
+    width: 100%;
+  }
 }
