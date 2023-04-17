@@ -1,3 +1,23 @@
+.main-bg {
+  h4 {
+    font-size: 16px;
+  }
+  button {
+    color: red;
+  }
+}
+
+%btn {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+}
+
+.btn-green {
+  @extend %btn;
+  color: green;
+}
+
 $main-color: #2a4cb2;
 $sub-color: #eeeeee;
 $main-font-size: 16px;
