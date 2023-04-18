@@ -1,6 +1,5 @@
 @use "reset";
-
-@mixin fontStyle($size, $letterSpacing) {
+1 @mixin fontStyle($size, $letterSpacing) {
   font-size: $size;
   letter-spacing: -1px;
 }
