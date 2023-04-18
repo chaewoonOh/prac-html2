@@ -1,33 +1,18 @@
-.main-bg {
-  h4 {
-    font-size: 16px;
-  }
-  button {
-    color: red;
-  }
+@use "reset";
+
+@mixin fontStyle($size, $letterSpacing) {
+  font-size: $size;
+  letter-spacing: -1px;
+}
+h2 {
+  @include fontStyle(40px);
 }
 
-%btn {
-  width: 100px;
-  height: 100px;
-  padding: 20px;
+h3 {
+  @include fontStyle(30px);
 }
 
-.btn-green {
-  @extend %btn;
-  color: green;
-}
-
-$main-color: #2a4cb2;
-$sub-color: #eeeeee;
-$main-font-size: 16px;
-
-.background {
-  background-color: $main-color;
-  font-size: $main-font-size - 2px;
-}
-
-.box {
-  color: $sub-color;
-  font-size: $main-font-size + 2px;
+h4 {
+  font-size: 10px;
+  letter-spacing: -1px;
 }
