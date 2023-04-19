@@ -1,1 +1,9 @@
-/*# sourceMappingURL=list.css.map */
+.sh-list li {
+  list-style: none;
+  padding: 15px;
+  border: 1px solid #eee;
+}
+.sh-list .active {
+  background: skyblue;
+  color: white;
+}/*# sourceMappingURL=list.css.map */
