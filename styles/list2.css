@@ -1,0 +1,15 @@
+.alert-box-green, .alert-box-blue, .alert-box-yellow {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  background: green;
+  color: white;
+}
+
+.alert-box-yellow {
+  background: orange;
+}
+
+.alert-box-blue {
+  background: skyblue;
+}/*# sourceMappingURL=list2.css.map */

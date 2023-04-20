@@ -1,0 +1,17 @@
+.alert-box-green {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  background: green;
+  color: white;
+}
+
+.alert-box-yellow {
+  @extend .alert-box-green;
+  background: orange;
+}
+
+.alert-box-blue {
+  @extend .alert-box-green;
+  background: skyblue;
+}
