@@ -190,6 +190,25 @@ body {
   display: block;
 }
 
+.ani-text {
+  text-align: center;
+}
+.ani-text:hover {
+  animation-name: ani-text-key;
+  animation-duration: 1s;
+}
+@keyframes ani-text-key {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(-100px);
+  }
+  100% {
+    transform: translateX(100px);
+  }
+}
+
 .overlay-wrap {
   position: absolute;
   width: 100%;
