@@ -195,6 +195,32 @@ body {
   animation-duration: 1s;
 }
 
+.ani-x:hover {
+  animation-name: turn;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes turn {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-15deg);
+  }
+  100% {
+    transform: rotate(45deg) scale(1.5);
+  }
+}
+
+.ani-x {
+  margin: 150px auto;
+  text-align: center;
+  font-size: 70px;
+  width: 84px;
+  cursor: pointer;
+}
+
 @keyframes shake {
   0% {
     transform: rotate(0deg);
