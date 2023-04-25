@@ -11,6 +11,40 @@ body {
   font-family: "Noto Sans KR", sans-serif;
 }
 
+@keyframes slide {
+  0% {
+    transform: translateX(-250px);
+  }
+  50% {
+    transform: translateX(20px) skewX(-30deg);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+.ani-navbar:hover p {
+  animation-name: slide;
+  animation-duration: 1s;
+}
+
+.ani-navbar:hover {
+  transform: translateX(0px);
+  text-align: center;
+}
+
+.ani-navbar {
+  width: 200px;
+  background: black;
+  color: white;
+  height: 100%;
+  padding: 25px;
+  position: fixed;
+  z-index: 5;
+  text-align: right;
+  transition: all 1s;
+  transform: translateX(-150px);
+}
+
 .main-background {
   width: 100%;
   height: 500px;
